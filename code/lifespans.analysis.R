@@ -1,4 +1,9 @@
 
+# ANALYSIS SCRIPT FOR PAPER: Does the institutional environment shape human life-histories? The
+# historical case of Augustus Smith and the Isles of Scilly
+
+# LIFESPAN
+
 # Setup -------------------------------------------------------
 
 ## Install/load packages --------------------------------------
