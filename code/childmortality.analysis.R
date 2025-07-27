@@ -107,7 +107,7 @@ childDeaths <- childDeaths %>%
 childDeaths[which(childDeaths$DeathYear < 1834), "timeelapsed"] <- 0
 
 #Save
-saveRDS(childDeaths, "data/childMortalityData.csv")
+write.csv(childDeaths, "data/childMortalityData.csv", row.names = FALSE)
 
 
 ## Data for gender interaction models -------------------------------------------
@@ -161,7 +161,7 @@ childDeaths.g <- childDeaths.g %>%
 
 childDeaths.g$Gender <- as.factor(childDeaths.g$Gender)
 
-saveRDS(childDeaths.g, "data/childMortalityGenderData.csv")
+write.csv(childDeaths.g, "data/childMortalityGenderData.csv", row.names = F)
 
 
 
